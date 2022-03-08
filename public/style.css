@@ -1,0 +1,77 @@
+:root {
+    --primary: #8693ab;
+    --secondary: #bdd4e7;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, var(--primary), var(--secondary))
+      no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Londrina Shadow", cursive;
+    font-family: "Playfair Display", serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: bold;
+  }
+  #homeImg {
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #H1Home {
+    margin: 20px;
+    font-size: 6rem;
+    text-align: center;
+    font-family: "Londrina Shadow", cursive;
+    font-family: "Playfair Display", serif;
+  }
+  
+  /* About page */
+  
+  #mainBody {
+    background-color: whitesmoke;
+    margin-left: 20%;
+    margin-top: 125px;
+    width: 60vw;
+    font-family: "Londrina Shadow", cursive;
+    font-family: "Playfair Display", serif;
+    font-size: 1.4rem;
+    text-align: center;
+    border-radius: 5%;
+  }
+  
+  #gif {
+    float: left;
+    margin: 0 15px 0 0;
+    padding-left: 20px;
+    width: 200px;
+    height: 200px;
+  }
+  /* Work page */
+  
+  #wallFame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 50vw;
+    font-family: "Londrina Shadow", cursive;
+    font-family: "Playfair Display", serif;
+    font-size: 1.4rem;
+    text-align: center;
+    border-radius: 5%;
+  }
